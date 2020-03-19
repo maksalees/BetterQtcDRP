@@ -1,22 +1,13 @@
 #include "qtcreatordiscordrichpresenceplugin.h"
 #include "qtcreatordiscordrichpresenceconstants.h"
 
-#include <coreplugin/icore.h>
-#include <coreplugin/icontext.h>
-#include <coreplugin/actionmanager/actionmanager.h>
-#include <coreplugin/actionmanager/command.h>
-#include <coreplugin/actionmanager/actioncontainer.h>
-#include <coreplugin/coreconstants.h>
 #include <coreplugin/editormanager/editormanager.h>
 #include <coreplugin/editormanager/ieditor.h>
 #include <projectexplorer/project.h>
 #include <projectexplorer/projecttree.h>
 
-#include <QAction>
 #include <QMessageBox>
-#include <QMainWindow>
-#include <QMenu>
-#include <QDebug>
+
 
 QString getRandomAlphanumericString(int length) {
     const QString possibleCharacters("ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789");
