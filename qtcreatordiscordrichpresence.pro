@@ -15,12 +15,14 @@ LIBS += -ldiscord-rpc
 ## Either set the IDE_SOURCE_TREE when running qmake,
 ## or set the QTC_SOURCE environment variable, to override the default setting
 isEmpty(IDE_SOURCE_TREE): IDE_SOURCE_TREE = $$(QTC_SOURCE)
-isEmpty(IDE_SOURCE_TREE): IDE_SOURCE_TREE = "/usr/src/qtcreator"
 
 ## Either set the IDE_BUILD_TREE when running qmake,
 ## or set the QTC_BUILD environment variable, to override the default setting
 isEmpty(IDE_BUILD_TREE): IDE_BUILD_TREE = $$(QTC_BUILD)
-isEmpty(IDE_BUILD_TREE): IDE_BUILD_TREE = "/home/victor/Documents/QtCreatorBuild"
+
+exists(qtcreator.local.pri) {
+    include(qtcreator.local.pri)
+}
 
 ## uncomment to build plugin into user config directory
 ## <localappdata>/plugins/<ideversion>
@@ -48,3 +50,23 @@ QTC_PLUGIN_RECOMMENDS += \
 ###### End _dependencies.pri contents ######
 
 include($$IDE_SOURCE_TREE/src/qtcreatorplugin.pri)
+
+## discord RPC
+exists(discord-rpc.local.pri) {
+    include(discord-rpc.local.pri)
+}
+
+
+## broken libs
+exists(broken-libs.local.pri) {
+    include(broken-libs.local.pri)
+}
+
+DISTFILES += \
+    .gitignore \
+    broken-libs.local.pri \
+    broken-libs.local.pri.example \
+    discord-rpc.local.pri \
+    discord-rpc.local.pri.example \
+    qtcreator.local.pri \
+    qtcreator.local.pri.example
