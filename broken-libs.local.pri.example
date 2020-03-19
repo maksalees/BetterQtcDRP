@@ -1,0 +1,14 @@
+unix:!macx: LIBS += -L$$PWD/../../../../../opt/Qt/Tools/QtCreator/lib/qtcreator/plugins/ -lCore
+
+INCLUDEPATH += $$PWD/../../../../../opt/Qt/Tools/QtCreator/lib/qtcreator/plugins
+DEPENDPATH += $$PWD/../../../../../opt/Qt/Tools/QtCreator/lib/qtcreator/plugins
+
+##unix:!macx: LIBS += -L$$PWD/../../../../../opt/Qt/Tools/QtCreator/lib/qtcreator/ -lqbscore
+
+INCLUDEPATH += $$PWD/../../../../../opt/Qt/Tools/QtCreator/lib/qtcreator
+DEPENDPATH += $$PWD/../../../../../opt/Qt/Tools/QtCreator/lib/qtcreator
+
+unix:!macx: LIBS += -L$$PWD/../../../../../opt/Qt/Tools/QtCreator/lib/qtcreator/ -lQtcSsh
+
+INCLUDEPATH += $$PWD/../../../../../opt/Qt/Tools/QtCreator/lib/qtcreator
+DEPENDPATH += $$PWD/../../../../../opt/Qt/Tools/QtCreator/lib/qtcreator

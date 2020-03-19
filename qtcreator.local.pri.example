@@ -1,0 +1,3 @@
+isEmpty(IDE_SOURCE_TREE): IDE_SOURCE_TREE = "/opt/Qt/Tools/QtCreator/dev/"
+
+isEmpty(IDE_BUILD_TREE): IDE_BUILD_TREE = "/opt/Qt/Tools/QtCreator/dev/build"

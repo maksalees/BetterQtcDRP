@@ -1,0 +1,7 @@
+## discord RPC
+unix:!macx: LIBS += -L"/path/lib" -ldiscord-rpc
+
+INCLUDEPATH += "/path/include"
+DEPENDPATH += "/path/include"
+
+unix:!macx: PRE_TARGETDEPS += "/path/lib"/libdiscord-rpc.so
