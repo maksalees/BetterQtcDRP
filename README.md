@@ -1,5 +1,6 @@
 # QtcDRP
 Discord Rich Presence Plugin for Qt Creator
+Made by @vicr123
 
 # build & install
 ```
