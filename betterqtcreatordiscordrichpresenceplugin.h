@@ -1,33 +1,31 @@
 #pragma once
 
-#include "qtcreatordiscordrichpresence_global.h"
+#include "betterqtcreatordiscordrichpresence_global.h"
 
 #include <extensionsystem/iplugin.h>
 #include <discord_rpc.h>
 #include <QAction>
 
-namespace QtCreatorDiscordRichPresence {
+namespace BetterQtCreatorDiscordRichPresence {
     namespace Internal {
 
-        class QtCreatorDiscordRichPresencePlugin : public ExtensionSystem::IPlugin
+        class BetterQtCreatorDiscordRichPresencePlugin : public ExtensionSystem::IPlugin
         {
                 Q_OBJECT
-                Q_PLUGIN_METADATA(IID "org.qt-project.Qt.QtCreatorPlugin" FILE "QtCreatorDiscordRichPresence.json")
+                Q_PLUGIN_METADATA(IID "org.qt-project.Qt.QtCreatorPlugin" FILE "BetterQtCreatorDiscordRichPresence.json")
 
             public:
-                QtCreatorDiscordRichPresencePlugin();
-                ~QtCreatorDiscordRichPresencePlugin();
+                BetterQtCreatorDiscordRichPresencePlugin();
+                ~BetterQtCreatorDiscordRichPresencePlugin();
 
                 bool initialize(const QStringList &arguments, QString *errorString);
                 void extensionsInitialized();
                 ShutdownFlag aboutToShutdown();
 
             private:
-                //static QAction* rpAction;
-
                 void initDiscord();
                 QString oldProject;
         };
 
     } // namespace Internal
-} // namespace QtCreatorDiscordRichPresence
+} // namespace BetterQtCreatorDiscordRichPresence

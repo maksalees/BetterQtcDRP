@@ -1,12 +1,12 @@
-DEFINES += QTCREATORDISCORDRICHPRESENCE_LIBRARY
+DEFINES += BETTERQTCREATORDISCORDRICHPRESENCE_LIBRARY
 
-# QtCreatorDiscordRichPresence files
+# BetterQtCreatorDiscordRichPresence files
 
-SOURCES += qtcreatordiscordrichpresenceplugin.cpp
+SOURCES += betterqtcreatordiscordrichpresenceplugin.cpp
 
-HEADERS += qtcreatordiscordrichpresenceplugin.h \
-        qtcreatordiscordrichpresence_global.h \
-        qtcreatordiscordrichpresenceconstants.h
+HEADERS += betterqtcreatordiscordrichpresenceplugin.h \
+        betterqtcreatordiscordrichpresence_global.h \
+        betterqtcreatordiscordrichpresenceconstants.h
 
 LIBS += -ldiscord-rpc
 
@@ -36,7 +36,7 @@ USE_USER_DESTDIR = yes
 ###### <dirname>_dependencies.pri, where <dirname> is the name of the directory containing the
 ###### plugin's sources.
 
-QTC_PLUGIN_NAME = QtCreatorDiscordRichPresence
+QTC_PLUGIN_NAME = BetterQtCreatorDiscordRichPresence
 QTC_LIB_DEPENDS += \
     # nothing here at this time
 

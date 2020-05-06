@@ -1,0 +1,14 @@
+{
+    "Name" : "BetterQtCreatorDiscordRichPresence",
+    "Version" : "0.0.2",
+    "CompatVersion" : "0.0.2",
+    "Vendor" : "maks12345 and theSuite",
+    "Copyright" : "(C) maks12345 2020 and (C) theSuite 2017",
+    "License" : "GPL v3",
+    "Description" : "Integrate Qt Creator with Discord Rich Presence",
+    "Url" : "https://github.com/TheMiksHacker/BetterQtcDRP",
+    "Dependencies" : [
+        { "Name" : "Core", "Version" : "4.12.0" },
+        { "Name" : "ProjectExplorer", "Version" : "4.12.0" }
+    ]
+}
