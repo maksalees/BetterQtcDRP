@@ -14,11 +14,11 @@ Note: All images in this plugin are taken from the [Papirus icon theme](https://
 ```
 git clone https://github.com/TheMiksHacker/BetterQtcDRP.git
 ```
-Copy qtcreator.local.pri.example to qtcreator.local.pri
+Copy qtcreator.local.pri.example to qtcreator.local.pri (and change it)
 
-Copy discord-rpc.local.pri.example to discord-rpc.local.pri (optional)
+Copy discord-rpc.local.pri.example to discord-rpc.local.pri (and change it) (optional)
 
-Copy broken-libs.local.pri.example to broken-libs.local.pri.example (optional)
+Copy broken-libs.local.pri.example to broken-libs.local.pri.example (and change it) (optional)
 ```
 qmake
 ```
