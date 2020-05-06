@@ -8,6 +8,8 @@ This is a fork of [another plugin (but what’s funny, that plugin is also fork)
 - Improved code in some places
 - Removed the ability to send invitations to Discord (anyway, it will not join them)
 - Added support for many file formats (e.g. JavaScript, Python, and QML)
+
+Note: All images in this plugin are taken from the [Papirus icon theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme).
 # Build and install
 ```
 git clone https://github.com/TheMiksHacker/BetterQtcDRP.git
