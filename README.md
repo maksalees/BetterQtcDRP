@@ -1,10 +1,16 @@
-# QtcDRP
-Discord Rich Presence Plugin for Qt Creator
-Made by @vicr123
-
-# build & install
+# BetterQtcDRP
+Discord Rich Presence plugin for Qt Creator, which adds an excellent Rich Presence to your Qt Creator.
+# Screenshot
+![Screenshot](https://raw.githubusercontent.com/TheMiksHacker/BetterQtcDRP/master/screenshot.png)
+# Changes
+This is a fork of [another plugin (but what’s funny, that plugin is also fork)](https://github.com/Clem-Fern/QtcDRP) that has been slightly modified. In this fork changed:
+- Changed the images that are displayed in Rich Presence
+- Improved code in some places
+- Removed the ability to send invitations to Discord (anyway, it will not join them)
+- Added support for many file formats (e.g. JavaScript, Python, and QML)
+# Build and install
 ```
-git clone https://github.com/Clem-Fern/QtcDRP.git
+git clone https://github.com/TheMiksHacker/BetterQtcDRP.git
 ```
 Copy qtcreator.local.pri.example to qtcreator.local.pri
 
@@ -12,10 +18,12 @@ Copy discord-rpc.local.pri.example to discord-rpc.local.pri (optional)
 
 Copy broken-libs.local.pri.example to broken-libs.local.pri.example (optional)
 ```
-cmake
+qmake
 ```
-
 Go in builded release directory
 ```
 sudo make install
 ```
+
+# Releases
+Perhaps you can download the already compiled binary. To do this, go to the [Releases page](https://github.com/TheMiksHacker/BetterQtcDRP/releases) and download the binary file that suits you. Then just put this file in the folder with Qt Creator plugins (on GNU / Linux, if you downloaded from the repositories - /usr/lib/qtcreator/plugins)
