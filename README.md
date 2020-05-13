@@ -28,4 +28,4 @@ sudo make install
 ```
 
 # Releases
-Perhaps you can download the already compiled binary. To do this, go to the [Releases page](https://github.com/TheMiksHacker/BetterQtcDRP/releases) and download the binary file that suits you. Then just put this file in the folder with Qt Creator plugins (on GNU / Linux, if you downloaded from the repositories - /usr/lib/qtcreator/plugins)
+Perhaps you can download the already compiled binary. To do this, go to the [Releases page](https://github.com/TheMiksHacker/BetterQtcDRP/releases) and download the binary file that suits you. Then just put this file in the folder with Qt Creator plugins (on GNU/Linux, if you downloaded from the repositories - /usr/lib/qtcreator/plugins)
