@@ -8,7 +8,7 @@
     "Description" : "Integrate Qt Creator with Discord Rich Presence",
     "Url" : "https://github.com/TheMiksHacker/BetterQtcDRP",
     "Dependencies" : [
-        { "Name" : "Core", "Version" : "4.12.0" },
-        { "Name" : "ProjectExplorer", "Version" : "4.12.0" }
+        { "Name" : "Core", "Version" : "4.15.2" },
+        { "Name" : "ProjectExplorer", "Version" : "4.15.2" }
     ]
 }
